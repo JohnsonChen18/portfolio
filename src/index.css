@@ -249,7 +249,7 @@ section:last-of-type { border-bottom: 0; }
 .xp-expand .kv .v .chip { display: inline-block; font-size: 10px; color: var(--fg); border: 1px solid var(--rule-hi); padding: 1px 7px; border-radius: 99px; margin-right: 4px; margin-bottom: 4px; }
 
 /* Skills */
-.skills { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--rule); border-radius: 4px; }
+.skills { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid var(--rule); border-radius: 4px; }
 .skill-col { padding: 20px 22px; border-right: 1px solid var(--rule); }
 .skill-col:last-child { border-right: 0; }
 .skill-col h4 { margin: 0 0 14px; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--fg-mute); }
@@ -356,8 +356,8 @@ footer .caret { color: var(--accent); }
   .trade-row { grid-template-columns: 1fr; gap: 4px; padding: 14px 16px; }
   .proj-grid { grid-template-columns: 1fr 1fr; }
   .skills { grid-template-columns: 1fr 1fr; }
-  .skill-col:nth-child(2) { border-right: 0; }
-  .skill-col:nth-child(1), .skill-col:nth-child(2) { border-bottom: 1px solid var(--rule); }
+  .skill-col:nth-child(even) { border-right: 0; }
+  .skill-col:nth-child(1), .skill-col:nth-child(2), .skill-col:nth-child(3), .skill-col:nth-child(4) { border-bottom: 1px solid var(--rule); }
   .work-item { grid-template-columns: 40px 1fr; }
   .hero-meta { grid-template-columns: 1fr 1fr; }
   .hm-cell:nth-child(2) { border-right: 0; }
