@@ -234,7 +234,7 @@ section:last-of-type { border-bottom: 0; }
 .xp-role { color: var(--fg); font-size: 15px; font-weight: 500; }
 .xp-co { color: var(--fg-dim); font-size: 13px; margin-left: 8px; }
 .xp-co::before { content: "@ "; color: var(--fg-mute); }
-.xp-desc { color: var(--fg-dim); font-size: 13px; line-height: 1.7; margin-top: 8px; max-width: 60ch; }
+.xp-desc { color: var(--fg-dim); font-size: 13px; line-height: 1.7; margin-top: 8px; }
 .xp-desc ul { margin: 6px 0 0; padding-left: 18px; list-style: none; }
 .xp-desc ul li { margin: 2px 0; }
 .xp-desc ul li::before { content: "› "; color: var(--accent-dim); }
