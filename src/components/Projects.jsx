@@ -9,7 +9,7 @@ const PROJECTS = [
       { k: 'stack', v: '<code>Java</code> <code>Spring</code> <code>Github Action</code>' },
       { k: 'notes', v: 'Making my developing process much smoother.' },
     ],
-    links: ['repo ↗'],
+    links: [{ label: 'repo ↗', url: 'https://github.com' }],
   },
   {
     id: 'proj_02', status: 'live', name: 'SignVR',
@@ -39,7 +39,7 @@ const PROJECTS = [
       { k: 'stack', v: '<code>Java</code><code>Spring</code><code>Vue</code><code>MySql</code>' },
       { k: 'notes', v: 'Help users understand their url traffic better.' },
     ],
-    links: ['repo ↗'],
+    links: [{ label: 'repo ↗', url: 'https://github.com' }],
   },
   {
     id: 'proj_05', status: 'archived', name: 'Kanbas',
@@ -49,7 +49,7 @@ const PROJECTS = [
       { k: 'stack', v: '<code>Typescript</code><code>React</code><code>Node.js</code>' },
       { k: 'notes', v: 'Implemented a robust Role-Based Access Control (RBAC) system to differentiate Teacher, Student, and Admin permissions.' },
     ],
-    links: ['repo ↗'],
+    links: [{ label: 'repo ↗', url: 'https://github.com' }],
   },
   {
     id: 'proj_06', status: 'wip', name: 'Incognito',
@@ -59,7 +59,7 @@ const PROJECTS = [
       { k: 'stack', v: '<code>Swift</code><code>Google Cloud</code><code>Firebase</code>' },
       { k: 'notes', v: 'The app is inspired by YikYak.' },
     ],
-    links: ['repo ↗'],
+    links: [{ label: 'repo ↗', url: 'https://github.com' }],
   },
 ]
 
@@ -91,7 +91,9 @@ function ProjectCard({ proj }) {
             </div>
           ))}
           <div className="links">
-            {proj.links.map(l => <a key={l} href="#">{l}</a>)}
+            {proj.links.map(({ label, url }) => (
+              <a key={label} href={url} target="_blank" rel="noopener noreferrer">{label}</a>
+            ))}
           </div>
         </div>
       )}
