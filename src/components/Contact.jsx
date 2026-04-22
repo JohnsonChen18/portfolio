@@ -5,7 +5,7 @@ export default function Contact() {
         <div className="contact">
           <div>
             <div className="sec-label" style={{ marginBottom: 24 }}>
-              <span className="hash">#</span> 08 / contact
+              <span className="hash">#</span> 07 / contact
             </div>
             <h2>
               Let's build<br />
@@ -13,27 +13,27 @@ export default function Contact() {
               <span className="dim">together.</span>
             </h2>
             <p className="copy">
-              I'm actively looking for full-time software engineering roles starting Q3 2026.
-              If you're hiring on a small, product-focused team — or just want to say hi — the
-              fastest way to reach me is email.
+              I'm actively looking for full-time software engineering roles.
+              If you're hiring, or just want to say hi, the
+              fastest way to reach me is email :)
             </p>
             <div className="links">
-              <a href="mailto:johnson@chen.dev">
+              <a href="mailto:js.chen.swe@gmail.com">
                 <span className="k">email</span>
-                <span>johnson@chen.dev</span>
+                <span>js.chen.swe@gmail.com</span>
                 <span className="arrow">→</span>
               </a>
-              <a href="#">
+              <a href="https://www.github.com/JohnsonChen18" target="_blank">
                 <span className="k">github</span>
-                <span>github.com/jchen</span>
+                <span>github.com/JohnsonChen18</span>
                 <span className="arrow">↗</span>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/johnson-chen-swe/" target="_blank">
                 <span className="k">linkedin</span>
-                <span>/in/johnson-chen</span>
+                <span>/in/johnson-chen-swe</span>
                 <span className="arrow">↗</span>
               </a>
-              <a href="#">
+              <a href="/resume.pdf" download="chen_johnson_2026.pdf">
                 <span className="k">resume</span>
                 <span>chen_johnson_2026.pdf</span>
                 <span className="arrow">↓</span>
@@ -44,7 +44,7 @@ export default function Contact() {
             <div className="lbl">// reply_template.json</div>
             <pre>
               <span className="punc">{'{'}</span>{'\n'}
-              {'  '}<span className="key">"to"</span><span className="punc">:</span>{'       '}<span className="str">"johnson@chen.dev"</span><span className="punc">,</span>{'\n'}
+              {'  '}<span className="key">"to"</span><span className="punc">:</span>{'       '}<span className="str">"js.chen.swe@gmail.com"</span><span className="punc">,</span>{'\n'}
               {'  '}<span className="key">"subject"</span><span className="punc">:</span>{'  '}<span className="str">"[role] @ [company]"</span><span className="punc">,</span>{'\n'}
               {'  '}<span className="key">"include"</span><span className="punc">:</span>{'  '}<span className="punc">{'['}</span>{'\n'}
               {'    '}<span className="str">"team size"</span><span className="punc">,</span>{'\n'}

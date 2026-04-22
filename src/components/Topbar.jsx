@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 const NAV_ITEMS = [
   { href: '#about', label: 'about' },
   { href: '#experience', label: 'experience' },
-  { href: '#work', label: 'work' },
+  // { href: '#work', label: 'work' },
   { href: '#projects', label: 'projects' },
   { href: '#readings', label: 'readings' },
   { href: '#tradings', label: 'tradings' },
@@ -42,7 +42,7 @@ export default function Topbar({ activeSection }) {
           ))}
         </nav>
         <div className="tb-right">
-          <a href="#" className="tb-resume" download>
+          <a href="/resume.pdf" className="tb-resume" download="chen_johnson_2026.pdf">
             <span className="tb-resume-arrow">↓</span>
             <span>resume.pdf</span>
           </a>
