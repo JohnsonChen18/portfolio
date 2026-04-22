@@ -9,18 +9,12 @@ export default function About() {
                 </div>
                 <div className="about-grid">
                     <div className="about-portrait">
-                        <div className="portrait-frame" role="img" aria-label="Portrait of Johnson Chen — placeholder">
-                            <span className="ph-label">// portrait.jpg</span>
-                            <div className="ph-center">
-                                <span className="glyph">JC</span>
-                                drop photo here
-                                <div className="sub">800 × 1000</div>
-                            </div>
-                            <span className="ph-dims">4 : 5</span>
+                        <div className="portrait-frame">
+                            <img src="/portrait.png" alt="Portrait of Johnson Chen" />
                         </div>
                         <div className="portrait-meta">
-                            <span>img_01.jpg</span>
-                            <span><span className="on">●</span> placeholder</span>
+                            <span>portrait.jpg</span>
+                            <span><span className="on">●</span> johnson chen</span>
                         </div>
                     </div>
                     <div className="about-copy">
