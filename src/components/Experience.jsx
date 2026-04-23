@@ -93,6 +93,40 @@ const JOBS = [
             {k: 'learned', v: "How to manage infra in professional environment."},
         ],
     },
+    {
+        when: 'Jan 2025 - Apr 2025',
+        role: 'Mobile Engineering Intern',
+        company: 'FirstGlance',
+        bullets: [
+            'Developed a cross-platform mobile app, integrating data synchronization with backend.'
+        ],
+        detail: [
+            {k: 'team', v: 'Mobile Team'},
+            {
+                k: 'stack',
+                v: '<span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">Provider</span><span class="chip">BLoC</span>'
+            },
+            {k: 'shipped', v: 'A mobile app which build a bridge between startups and investors'},
+            {k: 'learned', v: "Mobile Developing."},
+        ],
+    },
+    {
+        when: 'Jun 2022 - Aug 2022',
+        role: 'Data Analyst Intern',
+        company: 'Unity',
+        bullets: [
+            'Performed exploratory data analysis on Asset Store and visualized key trends.'
+        ],
+        detail: [
+            {k: 'team', v: 'Data Visualization Team'},
+            {
+                k: 'stack',
+                v: '<span class="chip">Python</span><span class="chip">Tableau</span><span class="chip">Spark</span>'
+            },
+            {k: 'shipped', v: 'Provide insights about consumer behaviour in assent store to support strategic decision making'},
+            {k: 'learned', v: "How to clean and transform complex data into intuitive visual dashboards that directly empower business decision-making."},
+        ],
+    },
 ]
 
 export default function Experience() {
